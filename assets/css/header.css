@@ -1,0 +1,42 @@
+body{
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-align: center;
+}
+
+*{
+    margin: 5px;
+}
+
+input[type=button]{
+    width: 10rem;
+    margin-top: 5px;
+    border-radius: 11px;
+    height: 2rem;
+    border: none;
+    background: rgb(230, 227, 255);
+}      
+
+        button{
+                width: 10rem;
+            padding: 5px 10px;
+            border-radius: 6rem;
+            border: none;
+            background: rgb(230, 227, 255);
+            outline: none;
+        }
+
+        button a{
+                text-decoration: none;
+            color: rgb(5, 5, 230);
+            font-weight: 500;
+        }
+
+.center{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+#showY{
+font-weight: 300;
+}
