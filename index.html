@@ -14,11 +14,13 @@
     <!-- <link rel="stylesheet" href="assets/css/header.css"> -->
 </head>
 <header>
-    <h1>BUDGET APP</h1>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Gestion de budget</h1>
-            <p class="lead">Simple, rapide , et efficace.</p>
+    <div class="container">
+        <h1>BUDGET APP</h1>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Gestion de budget</h1>
+                <p class="lead text-white">Simple, rapide , et efficace.</p>
+            </div>
         </div>
     </div>
 </header>
@@ -29,12 +31,12 @@
         <div class="row">
             <div class="col-md-6">
                 <label for="budget">Budget</label>
-                <input type="number" name="budget" id="budget" class="form-control">
-                <button type="submit" onClick="appBudget();" id="calculer">Calculer</button>
+                <input type="number" name="budget" id="budget" class="form-control" placeholder="Revenus...">
+                <button type="submit" id="calculer">Calculer</button>
             </div>
             <div class="col-md-6">
                 <label for="depenses">Depense</label>
-                <input type="number" name="depenses" id="depenses" class="form-control">
+                <input type="number" name="depenses" id="depenses" class="form-control" placeholder="Dépenses...">
                 <button type="submit">Ajouter achat</button>
             </div>
         </div>
@@ -55,6 +57,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="operation">
+        <h3>Historique des Achats</h3>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
